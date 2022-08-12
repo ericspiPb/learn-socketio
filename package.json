@@ -1,0 +1,18 @@
+{
+  "name": "test-socket",
+  "version": "1.0.0",
+  "module": "index.mjs",
+  "license": "MIT",
+  "dependencies": {
+    "add": "^2.0.6",
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "scripts": {
+    "start": "node server.mjs & node client.mjs"
+  }
+}
